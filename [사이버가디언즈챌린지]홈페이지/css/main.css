@@ -1,0 +1,125 @@
+  *{margin:0; padding:0; box-sizing:border-box;}
+  .main{
+    margin-top: 76px;
+  }
+  .navbar{
+    background-color: #f5f5f5;
+    border-radius: 0;
+  }
+  .navbar-inverse{
+    border-color: transparent;
+  }
+  .navbar-brand{
+    padding: 3px 0 3px 0;
+  }
+  nav .bar{
+    width: 1180px;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 1200px){
+  nav .bar{
+    width: auto;
+    border-radius: 0;
+  }
+  }
+  .navbar-inverse .navbar-nav > li > a{
+    color: #333;
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  nav .bar ul li a{
+    font-family: 'Rambla', sans-serif;
+  }
+  nav .bar ul li:hover{
+    background-color:#e0e0e0;
+  }
+  .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    color: #333;
+    background-color: #E0E0E0;
+  }
+  .main .row .cyberG img{
+    padding-top: 45px;
+    position: relative;
+    animation-name:cyber;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cyber{
+    0%{top:0px;}
+    50%{top:10px;}
+    100%{top: 0px;}
+  }
+  @media screen and (max-width: 767px){
+  .main .row .cyberG img{
+    width: 100%;
+    padding: 0 0 70px 0;
+    position: relative;
+    animation-name:cyber;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+  }
+  }
+  .main .row .content{
+    padding: 25px 0;
+    height: 260px;
+  }
+  .main .row .content h3{
+    font-size: 60px;
+    margin-left: 41%;
+  }
+  .main .row p{
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 17px;
+    font-family: '맑은 고딕';
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+  @media screen and (max-width: 767px){
+    .main .row .content h3{
+      font-size: 60px;
+      margin-left:46%;
+    }
+  }
+  .support{
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+  .support .row .wrap h1{
+    font-family: 'Rambla', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+  }
+  .footerWrap{
+    background-color: #E0E0E0;
+    height: 100px;
+    margin-top: 65px;
+  }
+  .footerWrap .container .row img{
+    float: right;
+    margin-top: 30px;
+  }
+
+  /*------------------- R U L E * C S S -------------------------*/
+  .rule .row h1{
+    font-family:'Rambla', sans-serif;
+    font-size: 52px;
+    margin-bottom: 30px;
+  }
+  .rule .ruleContent .ruleWrap p{
+    font-family:'Rambla', sans-serif;
+  }
+  .rule .ruleContent .ruleWrap span{
+    font-weight: bold;
+    font-size: 32px;
+    color:#333;
+  }
+  .rule .ruleContent .ruleWrap p{
+    font-size: 18px;
+  }
+  .rule .ruleContent .ruleWrap p .list{
+  font-weight: bold;
+  font-size: 24px;
+}
